@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\exercice_1.o
+./debug\exercice_2_microsoft.o
+./debug\exercice_3_dico.o
+./debug\exercice_4.o
+./debug\exercice_5.o
+./debug\exercice_6_dp.o
+./debug\tramway.o
+./debug\automatetramway.o
+./debug\etatdeplacement.o
+./debug\etatarretstation.o
+./debug\etatarretimminent.o
+./debug\etatarreturgence.o
+);

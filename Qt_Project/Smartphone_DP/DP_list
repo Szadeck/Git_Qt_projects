@@ -1,0 +1,75 @@
+Adaptateur
+
+Chaine de responsabilité
+
+Commande
+
+Composite
+
+Copie sur modification
+
+Décorateur
+
+Double dispatch
+
+Ecart de génération
+
+Etat
+
+Evaluation retardé
+
+Fabrique
+
+Fabrique abstraite
+
+Façade
+
+Injection de dépendance
+
+Interpréteur
+
+Inversion de contrôle
+
+Itérateur
+
+MapReduce
+
+Médiateur
+
+Mémento
+
+Monteur
+
+Model Vue Contrôleur
+
+Model Vue Présentateur
+
+Non Virtuelle Interface
+On s'en sert pour englober les test de chaques classe de test afin de pouvoir effectuer avant et apres leur lancement,
+des verifications et du log.
+
+Objet nul
+
+Observateur
+
+Patron
+
+Poids mouche
+
+Pont
+
+Post Redirect Get
+
+Prototype
+Utilisé ici pour ne pas recréer un nouvel OS a chaques mise a jour de ce dernier.
+On le clone pour ensuite travailler sur le nouveau.
+
+Proxy
+
+Singleton
+
+Stratégie
+
+Type fantôme
+
+Visiteur

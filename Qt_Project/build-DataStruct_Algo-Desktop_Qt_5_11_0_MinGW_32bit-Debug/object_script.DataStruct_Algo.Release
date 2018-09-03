@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\exercice_1.o
+./release\exercice_2_microsoft.o
+./release\exercice_3_dico.o
+./release\exercice_4.o
+./release\exercice_5.o
+./release\exercice_6_dp.o
+./release\tramway.o
+./release\automatetramway.o
+./release\etatdeplacement.o
+./release\etatarretstation.o
+./release\etatarretimminent.o
+./release\etatarreturgence.o
+);
