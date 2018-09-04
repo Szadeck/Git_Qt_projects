@@ -20,7 +20,8 @@ SOURCES += \
     operatingsystem.cpp \
     testmanager.cpp \
     itest.cpp \
-    testos.cpp
+    testos.cpp \
+    exceptionmanager.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -35,4 +36,5 @@ HEADERS += \
     operatingsystem.h \
     testmanager.h \
     itest.h \
-    testos.h
+    testos.h \
+    exceptionmanager.h

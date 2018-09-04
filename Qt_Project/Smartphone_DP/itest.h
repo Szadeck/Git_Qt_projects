@@ -1,7 +1,10 @@
 #ifndef ITEST_H
 #define ITEST_H
 
+//#define NDEBUG
+
 #include <iostream>
+#include <assert.h>
 
 class ITest
 {
