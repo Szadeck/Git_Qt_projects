@@ -21,7 +21,12 @@ SOURCES += \
     testmanager.cpp \
     itest.cpp \
     testos.cpp \
-    exceptionmanager.cpp
+    exceptionmanager.cpp \
+    iexceptionresponsible.cpp \
+    ermemory.cpp \
+    iexceptionmanager.cpp \
+    proxyexceptionmanager.cpp \
+    testexmr.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -37,4 +42,9 @@ HEADERS += \
     testmanager.h \
     itest.h \
     testos.h \
-    exceptionmanager.h
+    exceptionmanager.h \
+    iexceptionresponsible.h \
+    ermemory.h \
+    iexceptionmanager.h \
+    proxyexceptionmanager.h \
+    testexmr.h

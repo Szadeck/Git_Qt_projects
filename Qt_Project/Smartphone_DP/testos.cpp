@@ -8,7 +8,7 @@ bool TestOS::test()
     //PrototypeOS<OperatingSystem> * os = std::unique_ptr<OperatingSystem>(new OperatingSystem());
     PrototypeOS<OperatingSystem> * os = new OperatingSystem();
     std::cout << "Os in version : " << os->getVersion() << std::endl;
-    assert(os->getVersion() == 2.00);
+
     os->updateVersion(UpdateLevel::Minor);
     std::cout << "Os in version : " << os->getVersion() << std::endl;
 

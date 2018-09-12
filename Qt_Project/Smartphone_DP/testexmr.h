@@ -1,11 +1,16 @@
 #ifndef TESTEXMR_H
 #define TESTEXMR_H
 
+#include "itest.h"
 
-class TestExMr
+class TestExMr : public ITest
 {
 public:
-    TestExMr();
+    TestExMr(std::string testname) : ITest(testname) {}
+    virtual ~TestExMr() = default;
+
+    virtual bool test();
+    static void caughtExceptionStep();
 };
 
 #endif // TESTEXMR_H

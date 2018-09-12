@@ -1,7 +1,9 @@
 Adaptateur
 
 Chaine de responsabilité
-
+Mon gestionnaire d'exception fonctionne avec une CDR. Il fait passer les exception qu'il recoit
+a une liste de responsable qui vont tour a tour verifier et faire, si ils sont responsable, ce qu'il
+faut pour gerer l'erreur.
 Commande
 
 Composite
@@ -65,7 +67,9 @@ Utilisé ici pour ne pas recréer un nouvel OS a chaques mise a jour de ce derni
 On le clone pour ensuite travailler sur le nouveau.
 
 Proxy
-
+En voulant séparer le "try catch" de l'exception manager, j'ai crée un proxy qui herite de la meme interface et appelera
+la gestion d'erreur si une exception etait levé. L'utilisation ne permet pas d'economiser de ressources et n'est pas vraiment plus sécurisé.
+Elle permet juste de ne pas utiliser l'exception manager directement dans le main. Utilisation du proxy a revoir.
 Singleton
 
 Stratégie
